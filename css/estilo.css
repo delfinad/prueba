@@ -1,0 +1,336 @@
+* {margin: 0; padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+	background-color: #ffffff;
+	color:#2d3436;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}
+
+header {
+	background-color: #ffffff;
+	padding: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+div {
+	display: flex;
+	flex-flow: wrap;
+	}
+
+
+
+.logo { 
+	padding: 5px;
+	display: inline-flex;
+	float: left;
+}
+
+
+.logo img {
+	width: 135px;
+	height: 132px;
+	float: left;
+	display: inherit;
+}
+
+
+
+.subtitulo {
+	color: #c94231;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: right;
+	float: right;
+	display: inline-block;
+	margin-top: 40px;
+	margin-right: 5px;
+}
+
+
+nav{
+	width: 88%;
+	height: 40px;
+	display: inline-block;
+
+}
+
+nav ul { 
+	display: inline-block;
+	font-size: 20px;
+	float: right;
+
+}
+
+nav li {
+	display: inline-block;
+	float: right;
+	padding: 10px;
+}
+
+nav li a {
+	font-size: 15px;
+	background-color: #c94231;
+	color: white;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+nav li a:hover {
+	background-color: white;
+	color: #c94231;
+}
+
+main{
+	width: 100%;
+	display: inline-block;
+}
+
+section {
+	width: 100%
+	height: 800px;
+	background-color: #B33771;
+}
+
+a {
+	color: #2d3436;
+	text-decoration: none;
+} 
+
+a:hover {
+	color: #c94231;
+} 
+
+
+
+.caja3columnas {
+	background-color: none; 
+	width:15%; 
+	margin: auto; 
+	padding: 10px; 
+	display: block;
+box-sizing: border-box;}
+
+.caja3columnas h2 {
+	color: #2d3436;
+	text-align: center;
+	padding: 10px;
+	font-weight: normal;
+}
+
+.caja3columnas img {
+	width: 122px;
+	height: 84px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.about { 
+	display: inline-block;
+	width:100%; 
+	padding: 10px;
+}
+
+.about h2 { 
+	width:98%; 
+	display: block;
+	padding: 15px;
+	font-size: 30px;
+	color: #c94231;
+	font-weight: normal;
+	text-align: left;
+}
+
+.about p {
+	width:48%; 
+	display: inline-block;
+	padding: 10px;
+	font-size: 15px;
+	color: #2d3436;
+	font-weight: normal;
+	text-align: justify;
+}
+
+.about img { 
+	width:47%; 
+	margin: 0.5%;
+	margin-right: 2%;
+	float: left;
+}
+
+.app img, .sociales img {
+	width: 100%;
+	margin-top: 5%;
+
+}
+
+.sociales a {
+	margin-right: 2%;
+
+}
+
+.app ul li {
+	list-style: none;
+	
+}
+
+
+.sociales, .app {
+	justify-content: center;
+}
+
+h1 {
+	color: #c94231;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+form {
+	margin-left: 15%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	margin-top: 1%;
+}
+
+form h1 {
+	font-size: 30px;
+	color: #c94231;
+	font-weight: normal;
+}
+
+.formulario {
+	display: inline-block;
+	float: right;
+}
+
+form p {
+	color: #2d3436;
+	text-align: left;
+}
+
+.mapa {
+	display: inline-block;
+	float: left;
+	padding: 15px;
+
+}
+
+label {
+	text-align: center;
+	color: black;
+}
+
+/*TIENDA*/
+
+.desc {
+	width: 90%;
+	margin-left: 4%;
+	padding: 10px;
+}
+
+.desc h1 {
+	font-size: 30px;
+	color: #c94231;
+	font-weight: normal;
+}
+
+
+.producto {
+	margin: 1%;
+	margin-left: 4.3%;
+	margin-right: -2%;
+	margin-bottom: 5%;
+	padding: 5px;
+	display: inline-block;
+	width: 21%;
+	box-sizing: border-box;
+	
+}
+
+.producto img {
+	margin-left: 1%;
+}
+
+.producto:hover img{
+	opacity: 0.5;
+
+}
+
+.info {
+	padding: 5px;
+	width: 100%;
+	display: inline-block;
+	box-shadow: 7px 7px 7px #cccccc;
+   -webkit-box-shadow: 7px 7px 7px #cccccc;
+   -moz-box-shadow: 7px 7px 7px #cccccc;
+}
+
+.info h1 { 
+	display: inline-block;
+	width: 100%;
+	font-size: 18px; 
+	color: #2d3436;
+}
+
+.info h2 {
+	float: left;
+	font-style: italic;
+	font-weight: normal;
+	margin-top: -3%;
+}
+
+.carrito{
+	width: 17%;
+	font-size: 25px;
+	float: right;
+	border-left: 1px solid #2d3436;
+}
+
+.carrito a {
+	padding: 2px;
+}
+
+.carrito i {
+	margin-left: 30%;
+}
+
+/*FIN TIENDA*/
+
+footer {
+	text-align: left;
+	color: #2d3436;
+	padding: 6px;
+	border-top: 1px solid #2d3436;
+}
+
+.redes {
+	padding: 1px;
+	color: #2d3436;
+	float: right;
+}
+
+.redes i {
+	font-size: 30px;
+}
+
+footer a { 
+	display: inline-block; 
+	color: #2d3436;
+	padding-right: 10px;
+
+}
+
+
+@media (max-width: 480px)
+
+
+
+}

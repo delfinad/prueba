@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ABUELA FA</title>
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+<link rel="stylesheet" href="css/responsiveslides.css">
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+   <script src="js/responsiveslides.min.js"></script>
+
+
+   <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 4
+      $("#slider4").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+          $('.events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $('.events').append("<li>after event fired.</li>");
+        }
+      });
+
+    });
+  </script>
+
+
+</head>
+
+<body>
+    <main>
+	<header>
+
+
+        <div class="logo">
+            <a href="index.html"> <img src="img/logo1.png"></a> 
+        </div>
+
+<div class="subtitulo"><p>ARTÍCULOS DE BUENA SUERTE</p></div>
+
+    </header>
+
+<nav>
+        <ul>
+  <li><a href="contacto.html">CONTACTO</a>
+  </li>
+  <li><a href="tienda.html">TIENDA ONLINE</a></li>
+  <li><a href="about.html">¿QUIÉNES SOMOS?</a></li>
+</ul>            
+
+
+</nav>
+
+
+	<main>
+
+     <!-- Slideshow 4 -->
+    <div class="callbacks_container">
+      <ul class="rslides" id="slider4">
+        <li>
+          <a href="/" target="_blank"> <img src="img/slide.png">
+            </a>
+          <p class="caption"><b>NOVEDAD:</b><br>NUEVOS MODELOS DE GATOS DE LA FORTUNA (STOCK LIMITADO)</p>
+        </li>
+        <li>
+          <a href="/" target="_blank"> <img src="img/slide2.png">
+            </a>
+          <p class="caption"><b>RESTOCK</b><br>AMULETOS DE NAZAR</p>
+        </li>
+        <li>
+          <a href="/" target="_blank"> <img src="img/slide3.png">
+            </a>
+          <p class="caption"><b>¡YA LLEGARON!</b><br>CUENTAS DE JADE DIRECTO DESDE CHINA</p>
+        </li>
+      </ul>
+    </div>
+
+<div>
+
+      <div class="caja3columnas">
+        <a href="/"><img src="img/tarjetas.png"></a>
+        <h2> <a href="/">TARJETAS </a></h2>
+      </div>
+
+      <div class="caja3columnas">
+        <a href="/"><img src="img/descuento.png"></a>
+        <h2><a href="/">PROMOCIONES</a></h2>
+      </div>
+
+
+      <div class="caja3columnas">
+        <a href="/"><img src="img/regala.png"></a>
+        <h2><a href="/">¡REGALÁ!</a></h2>
+      </div>
+
+    </div>
+    
+	</main>
+
+
+<footer><a href="micrositio.html">DELFINA DALESIO 2020</a>
+        <div class="redes">
+         <a href="#"><i class="fa fa-facebook-square"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+
+        </div>
+
+
+    </footer>
+    </main>
+</body>
+</html>
